@@ -4,13 +4,7 @@ def get_movie_recommendations(genre=None, top_n=10):
     """
     Recommends movies based on a specified genre, prioritizing by rating count and average rating.
 
-    Args:
-        genre (str, optional): The genre to filter movies by. If None, returns overall top movies.
-        top_n (int): The number of top recommendations to return.
-
-    Returns:
-        list: A list of dictionaries, where each dictionary represents a recommended movie
-              with its title, genres, average rating, and rating count.
+    
     """
     try:
         # Load datasets
